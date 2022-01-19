@@ -5,5 +5,21 @@
     font-size: 72px;
     line-height: 76px;
     margin-right: 40px;
-    width: 50%;
+    width: 45%;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        width: auto;
+        margin-left: 16px;
+    }
 }

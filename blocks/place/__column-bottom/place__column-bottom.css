@@ -3,5 +3,13 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+    align-self: flex-end;
+}
 
+@media screen and (max-width: 768px) {
+    .place__column-bottom {
+        align-self: flex-start;
+        margin-left: 16px;
+        margin-top: 32px;
+    }
 }
