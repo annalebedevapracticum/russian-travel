@@ -11,3 +11,4 @@
 320px.
 
 Проектная работа была выложена на GitHub Pages, чтобы её можно было показать другим. Ссылка:
+https://annalebedevapracticum.github.io/russian-travel/
