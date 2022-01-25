@@ -1,11 +1,11 @@
-.place__row {
+.place__container {
     display: flex;
     margin-bottom: 48px;
     align-items: flex-start;
 }
 
 @media screen and (max-width: 767px) {
-    .place__row {
+    .place__container {
         flex-direction: column;
         margin-bottom: 32px;
     }
