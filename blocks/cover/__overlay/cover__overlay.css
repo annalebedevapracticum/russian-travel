@@ -1,5 +1,4 @@
 .cover__overlay {
-    display: block;
     background: rgba(42, 44, 47, 0.3);
     display: flex;
     flex-direction: column;
