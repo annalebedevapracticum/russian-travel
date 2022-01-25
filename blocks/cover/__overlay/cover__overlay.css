@@ -8,6 +8,7 @@
     padding: 245px 0;
     color: white;
     text-decoration: none;
+    transition: background-color 0.2s linear 0.2s;
 
 }
 
