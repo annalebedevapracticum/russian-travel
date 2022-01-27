@@ -5,13 +5,25 @@
     font-size: 72px;
     line-height: 76px;
     margin-right: 40px;
-    width: 45%;
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 10px;
+    max-width: 460px;
+}
+
+@media screen and (max-width: 1279px) {
+    .place__title {
+        margin-right: 32px;
+        max-width: 440px;
+    }
 }
 
 @media screen and (max-width: 1023px) {
     .place__title {
         font-size: 42px;
         line-height: 46px;
+        margin-right: 28px;
+        max-width: 340px;
     }
 }
 
@@ -21,5 +33,8 @@
         line-height: 35px;
         width: auto;
         margin-left: 16px;
+        margin-right: 0;
+        max-width: initial;
+
     }
 }
